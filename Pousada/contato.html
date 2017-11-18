@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Pousada Por do Sol</title>
+	<link rel="stylesheet" type="text/css" href="_css/estilo.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Fjalla+One|Libre+Franklin|Lobster|News+Cycle|Noto+Serif|Poiret+One|Saira|Source+Code+Pro" rel="stylesheet">
+</head>
+<body>
+	
+	<header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="chales.html">Chales</a></li>
+			<li><a href="galery.html">Galeria e Lazer</a></li>
+			<li><a href="localizacao.html">Localização</a></li>
+			<li><a href="contato.com">Contato</a></li>
+		</ul>
+	</nav>
+		<h1>Pousada Por do Sol</h1>
+	</header>
+ <main>
+ 	
+	<form action="cad.jsp" method="post">
+		<label for="txtNome">Nome:</label>
+		<input type="text" name="txtNome" id="txtNome" required placeholder="Digite Seu Nome Aqui">
+		<label for="txtEmail">E-mail:</label>
+		<input type="email" name="txtEmail" id="txtEmail" required placeholder="exemplo@gmail.com">
+		<select name="cboAssunto" id="cboAssunto">
+			<option value="Selecione">Selecione</option>
+			<option value="Cales">Chales</option>
+			<option value="Problemas">Nao Conssegui Reserva o Chale</option>
+			<option value="Feed">FeedBack</option>
+			<option value="Outros">Outros</option>
+		</select>
+			<label for="txtMensagem">Mensagem</label>
+			<textarea name="txtMensagem" id="txtMensagem"></textarea>
+			<input type="submit" name="enviar">
+	</form>
+
+
+ </main>
+	<footer>
+		<div id="endereco">
+			
+			telefone: 3333-3333<br>
+			celular: 92222-2222<br>
+			endereço: R. Cel. Luís Americano, 130 - Tatuapé, São Paulo - SP<br>
+
+
+		</div>
+
+		<div id="redes">
+			<nav>
+				<ul id="efeito">
+					<li><a href="https://www.facebook.com/Pousada-Ficticia-1469188789829499/"><img src="_imagens/facebook.png"></a></li>
+					<li><a href="https://twitter.com/PousadaFicticia"><img src="_imagens/twitter.png"></a></li>
+				</ul>
+			</nav>
+		</div>
+	     <p>Victor Henrique Ranalli Barbosa &copy; Todos os Direitos Reservados</p>
+	</footer>
+
+</body>
+</html>
